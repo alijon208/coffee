@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+body{
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: 0 auto;
+    font-family: 'Fraunces';
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width:1000px){
+  body{
+    padding: 0 35px;
+  }
+}
+@media only screen and (max-width:800px){
+  body{
+    padding: 0 20px;
+  }
+}

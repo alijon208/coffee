@@ -1,0 +1,53 @@
+.intro{
+    margin-top: 110px;
+    background: url('../../img/intro-bg.jpg') no-repeat center center;
+    padding: 117px 100px;
+    color: $light-cream;
+    border-radius: 10px;
+}
+.intro__content{
+    max-width: 493px;
+}
+.intro__info{
+    font-family: "Fraunce";
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 0;
+    margin-bottom: 32px;
+}
+.intro__text{
+    margin-bottom: 70px;
+}
+@media only screen and (max-width:600px){
+    .intro__content{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width:725px){
+    .intro__info{
+        font-size: 62px;
+    }
+    .intro__content{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:660px){
+    .intro__info{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:589px){
+    .intro__info{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:500px){
+    .create-link{
+        padding: 15px 25px;
+    }
+    .intro{
+        padding: 20px;
+    }
+}

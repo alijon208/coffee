@@ -1,0 +1,18 @@
+.nav{
+    width: 283px;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.nav__item-link{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    color: $gray;
+    &:hover{
+        color: $dark-gray-blue;
+    }
+}
